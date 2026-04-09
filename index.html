@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>India Gate – Restaurant Indien Authentique | Montauban</title>
+  <meta name="description" content="India Gate, le meilleur restaurant indien de Montauban. Cuisine authentique, Butter Chicken, plats végétariens. Réservation au 05 63 24 19 18.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#accueil" class="nav__logo">
+        <div class="logo-emblem">🍛</div>
+        <div class="logo-text">
+          <span class="logo-main">India Gate</span>
+          <span class="logo-sub">Montauban</span>
+        </div>
+      </a>
+
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#accueil" class="nav__link">Accueil</a></li>
+        <li><a href="#carte" class="nav__link">Carte</a></li>
+        <li><a href="#reservation" class="nav__link">Réservation</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+        <li><a href="#reservation" class="btn btn--gold nav__cta">Réserver une table</a></li>
+      </ul>
+
+      <button class="cart-btn" id="cartBtn" title="Ma commande">
+        <span class="cart-icon">🛒</span>
+        <span class="cart-badge" id="cartBadge">0</span>
+      </button>
+
+      <button class="nav__hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="accueil">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__glow"></div>
+
+    <div class="hero__content container">
+      <div class="hero__inner">
+        <p class="hero__eyebrow">🇮🇳 Cuisine Indienne Authentique</p>
+        <h1 class="hero__title">
+          <span class="hero__t1">India Gate</span>
+          <span class="hero__t2">Montauban</span>
+        </h1>
+        <p class="hero__subtitle">Un voyage culinaire au cœur de l'Inde,<br>ici à Montauban</p>
+        <div class="hero__rating">
+          <span class="hero__stars">★★★★★</span>
+          <span>4.9 / 5 · 362 avis Google</span>
+        </div>
+        <div class="hero__actions">
+          <a href="#reservation" class="btn btn--gold btn--lg">📞 Réserver une table</a>
+          <a href="#carte" class="btn btn--outline btn--lg">🍽️ Voir la carte</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll">
+      <div class="scroll-mouse">
+        <div class="scroll-dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HIGHLIGHTS ===== -->
+  <section class="highlights">
+    <div class="container">
+      <div class="highlights__grid">
+        <div class="highlight fade-in">
+          <span class="highlight__icon">⭐</span>
+          <div>
+            <strong>362 Avis Google</strong>
+            <span>Note Excellente</span>
+          </div>
+        </div>
+        <div class="highlight fade-in">
+          <span class="highlight__icon">🌶️</span>
+          <div>
+            <strong>Épices Authentiques</strong>
+            <span>Sélectionnées avec soin</span>
+          </div>
+        </div>
+        <div class="highlight fade-in">
+          <span class="highlight__icon">👨‍🍳</span>
+          <div>
+            <strong>Cuisine Maison</strong>
+            <span>Savoir-faire traditionnel</span>
+          </div>
+        </div>
+        <div class="highlight fade-in">
+          <span class="highlight__icon">📍</span>
+          <div>
+            <strong>Centre-Ville</strong>
+            <span>Proche Saint-Jacques</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__img-side fade-in">
+          <div class="about__img-frame">
+            <img src="Images/mix-grill.jpeg" alt="Grillades India Gate – Spécialité maison">
+            <div class="about__img-badge">
+              <span>🍛</span>
+              <span>Butter Chicken</span>
+              <small>Notre spécialité</small>
+            </div>
+          </div>
+        </div>
+        <div class="about__text-side fade-in">
+          <span class="tag-label">Notre restaurant</span>
+          <h2 class="section-title">Au cœur de Montauban</h2>
+          <div class="gold-divider"></div>
+          <p>Situé en plein centre-ville, à deux pas de l'église Saint-Jacques ⛪. Référence incontournable de la cuisine indienne authentique, le restaurant est notamment reconnu pour son <em>Butter Chicken</em> 🍛 et ses plats riches en saveurs traditionnelles 🌶️✨</p>
+          <p>Que ce soit pour un déjeuner rapide, un dîner romantique 💑 ou un moment convivial entre amis, India Gate vous accueille dans une ambiance chaleureuse avec une cuisine faite maison 💛</p>
+          <p>📍 Idéalement situé à proximité de l'église Saint-Jacques, du musée Ingres 🖼️ et du Pont Vieux 🌉, monuments historiques emblématiques de Montauban.</p>
+          <a href="#reservation" class="btn btn--gold">Réserver une table</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWS ===== -->
+  <section class="news" id="actualites">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="tag-label">Actualités</span>
+        <h2 class="section-title">🇮🇳 Découvrez Notre Nouvelle Carte</h2>
+        <div class="gold-divider"></div>
+      </div>
+      <div class="news__grid">
+        <div class="news__card fade-in">
+          <div class="news__card-icon">🍽️</div>
+          <h3>Notre carte évolue</h3>
+          <p>Nous avons enrichi notre sélection pour vous offrir une expérience culinaire encore plus raffinée.</p>
+          <ul>
+            <li>✨ De nouvelles spécialités indiennes</li>
+            <li>🍰 Des desserts gourmands</li>
+            <li>🥭 Une sélection de boissons soigneusement choisies</li>
+          </ul>
+          <p>Chaque plat est préparé avec des épices sélectionnées et un savoir-faire traditionnel, pour vous faire voyager au cœur de l'Inde, ici à Montauban.</p>
+        </div>
+        <div class="news__quote fade-in">
+          <div class="quote-stars">★★★★★</div>
+          <blockquote>"Le meilleur restaurant indien de Montauban !"</blockquote>
+          <cite>— Anil Akdogan · Avis Google</cite>
+          <div class="quote-deco">🇮🇳</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU ===== -->
+  <section class="menu-section" id="carte">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="tag-label">La Carte</span>
+        <h2 class="section-title">🍽️ Notre Menu</h2>
+        <div class="gold-divider"></div>
+        <p class="section-note">Selon disponibilité, la viande peut être remplacée avec un léger supplément.</p>
+      </div>
+
+      <!-- ORDER BAR -->
+      <div class="order-bar" id="orderBar">
+        <span class="order-bar__title">📝 Ma commande</span>
+        <span class="order-bar__info" id="orderBarInfo">Sélectionnez vos plats</span>
+        <span class="order-bar__total" id="orderBarTotal">0,00 €</span>
+        <button class="btn btn--gold btn--sm" id="viewOrderBtn">Voir</button>
+      </div>
+
+      <!-- TABS -->
+      <div class="menu__tabs-scroll">
+        <div class="menu__tabs" id="menuTabs">
+          <button class="tab-btn active" data-tab="entrees">🥟 Entrées</button>
+          <button class="tab-btn" data-tab="grillades">🔥 Grillades</button>
+          <button class="tab-btn" data-tab="plats">🍛 Plats</button>
+          <button class="tab-btn" data-tab="vegetariens">🥦 Végétariens</button>
+          <button class="tab-btn" data-tab="accompagnements">🍚 Accomp.</button>
+          <button class="tab-btn" data-tab="pains">🫓 Pains</button>
+          <button class="tab-btn" data-tab="desserts">🍨 Desserts</button>
+          <button class="tab-btn" data-tab="boissons">🍵 Boissons</button>
+          <button class="tab-btn" data-tab="soft">🥤 Soft</button>
+          <button class="tab-btn" data-tab="alcools">🥃 Alcools</button>
+          <button class="tab-btn" data-tab="bieres">🍺 Bières</button>
+          <button class="tab-btn" data-tab="cocktails">🍹 Cocktails</button>
+          <button class="tab-btn" data-tab="vins">🍷 Vins</button>
+          <button class="tab-btn" data-tab="menus">🍽️ Menus</button>
+        </div>
+      </div>
+
+      <!-- PANELS (populated by JS) -->
+      <div class="menu__panels">
+        <div class="menu__panel active" id="panel-entrees"></div>
+        <div class="menu__panel" id="panel-grillades"></div>
+        <div class="menu__panel" id="panel-plats"></div>
+        <div class="menu__panel" id="panel-vegetariens"></div>
+        <div class="menu__panel" id="panel-accompagnements"></div>
+        <div class="menu__panel" id="panel-pains"></div>
+        <div class="menu__panel" id="panel-desserts"></div>
+        <div class="menu__panel" id="panel-boissons"></div>
+        <div class="menu__panel" id="panel-soft"></div>
+        <div class="menu__panel" id="panel-alcools"></div>
+        <div class="menu__panel" id="panel-bieres"></div>
+        <div class="menu__panel" id="panel-cocktails"></div>
+        <div class="menu__panel" id="panel-vins"></div>
+        <div class="menu__panel menu__panel--formulas" id="panel-menus"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ORDER SIDEBAR ===== -->
+  <aside class="order-sidebar" id="orderSidebar">
+    <div class="order-sidebar__header">
+      <h3>📝 Ma commande</h3>
+      <button class="sidebar-close" id="closeSidebar" aria-label="Fermer">✕</button>
+    </div>
+    <div class="order-sidebar__body" id="orderItems">
+      <p class="order-empty">Sélectionnez vos plats pour préparer votre commande.</p>
+    </div>
+    <div class="order-sidebar__footer">
+      <div class="order-total">
+        <span>Total :</span>
+        <strong id="sidebarTotal">0,00 €</strong>
+      </div>
+      <button class="btn btn--danger btn--full" id="clearOrderBtn">❌ Vider ma commande</button>
+    </div>
+  </aside>
+  <div class="order-overlay" id="orderOverlay"></div>
+
+  <!-- ===== RESERVATION ===== -->
+  <section class="reservation" id="reservation">
+    <div class="container">
+      <div class="reservation__grid">
+        <div class="reservation__text fade-in">
+          <span class="tag-label">Réservation</span>
+          <h2 class="section-title">📞 Réservez par téléphone</h2>
+          <div class="gold-divider"></div>
+          <p>Appelez-nous pour réserver votre table chez India Gate :</p>
+          <a href="tel:0563241918" class="phone-card">
+            <span class="phone-card__icon">📱</span>
+            <span class="phone-card__number">05 63 24 19 18</span>
+          </a>
+          <div class="res-infos">
+            <div class="res-info-row">
+              <span>🕐</span>
+              <span>Ouvert tous les jours sauf mardi</span>
+            </div>
+            <div class="res-info-row">
+              <span>🥘</span>
+              <span>Service : 12h à 14h et 19h à 22h</span>
+            </div>
+          </div>
+          <p class="res-note">✨ Notre équipe se fera un plaisir de vous accueillir !</p>
+        </div>
+        <div class="reservation__ornament fade-in">
+          <div class="mandala">
+            <div class="mandala-r r1"></div>
+            <div class="mandala-r r2"></div>
+            <div class="mandala-r r3"></div>
+            <span class="mandala-center">🍛</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HORAIRES ===== -->
+  <section class="horaires" id="horaires">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="tag-label">Horaires</span>
+        <h2 class="section-title">🕐 Nos Horaires</h2>
+        <div class="gold-divider"></div>
+      </div>
+      <div class="horaires__list">
+        <div class="horaire-row fade-in">
+          <span class="day">Lundi</span>
+          <span class="hours">11h30 – 14h30 &nbsp;|&nbsp; 18h30 – 22h</span>
+        </div>
+        <div class="horaire-row closed fade-in">
+          <span class="day">Mardi</span>
+          <span class="hours">Fermé</span>
+        </div>
+        <div class="horaire-row fade-in">
+          <span class="day">Mercredi</span>
+          <span class="hours">11h30 – 14h30 &nbsp;|&nbsp; 18h30 – 22h</span>
+        </div>
+        <div class="horaire-row fade-in">
+          <span class="day">Jeudi</span>
+          <span class="hours">11h30 – 14h30 &nbsp;|&nbsp; 18h30 – 22h</span>
+        </div>
+        <div class="horaire-row fade-in">
+          <span class="day">Vendredi</span>
+          <span class="hours">11h30 – 14h30 &nbsp;|&nbsp; 18h30 – 22h</span>
+        </div>
+        <div class="horaire-row fade-in">
+          <span class="day">Samedi</span>
+          <span class="hours">11h30 – 14h30 &nbsp;|&nbsp; 18h30 – 22h</span>
+        </div>
+        <div class="horaire-row fade-in">
+          <span class="day">Dimanche</span>
+          <span class="hours">11h30 – 14h30 &nbsp;|&nbsp; 18h30 – 22h</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AVIS ===== -->
+  <section class="avis" id="avis">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="tag-label">Avis Google</span>
+        <h2 class="section-title">⭐ Ce que disent nos clients</h2>
+        <div class="gold-divider"></div>
+        <div class="avis-global">
+          <div class="avis-score">4.9</div>
+          <div>
+            <div class="avis-stars-big">★★★★★</div>
+            <p>Basée sur 362 avis Google</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="avis__slider">
+        <div class="avis__track" id="avisTrack">
+
+          <div class="avis-card">
+            <div class="avis-header">
+              <div class="avis-avatar">G</div>
+              <div class="avis-meta">
+                <strong>Gary</strong>
+                <span>25 mars 2026</span>
+              </div>
+              <div class="avis-card-stars">★★★★★</div>
+            </div>
+            <p>Après de nombreuses visites, India Gate est probablement mon restaurant indien préféré. Une expérience culinaire immersive, des prix attractifs dans un établissement bien tenu. Un faible pour le butter paneer 😉</p>
+          </div>
+
+          <div class="avis-card">
+            <div class="avis-header">
+              <div class="avis-avatar">B</div>
+              <div class="avis-meta">
+                <strong>Benjamin PESQUET</strong>
+                <span>22 mars 2026</span>
+              </div>
+              <div class="avis-card-stars">★★★★★</div>
+            </div>
+            <p>Tika Massala et Korma excellents on s'est régalé ! Toujours un lassi mangue et un garlic naan pour accompagner le tout MIAM !</p>
+          </div>
+
+          <div class="avis-card">
+            <div class="avis-header">
+              <div class="avis-avatar">C</div>
+              <div class="avis-meta">
+                <strong>Céline Gardelle</strong>
+                <span>22 mars 2026</span>
+              </div>
+              <div class="avis-card-stars">★★★★★</div>
+            </div>
+            <p>Plat savoureux et copieux, bon rapport qualité prix.</p>
+          </div>
+
+          <div class="avis-card">
+            <div class="avis-header">
+              <div class="avis-avatar">M</div>
+              <div class="avis-meta">
+                <strong>Maëva Duparc</strong>
+                <span>20 mars 2026</span>
+              </div>
+              <div class="avis-card-stars">★★★★★</div>
+            </div>
+            <p>India Gate, c'est bien plus qu'un restaurant, c'est une histoire et un héritage de famille avant tout ✨ Une expérience culinaire qui nous transporte directement en Inde dès la première bouchée. Le personnel et le service sont chaleureux, les plats sont incroyablement savoureux, parfumés et généreux, avec des épices parfaitement équilibrées qui réveillent les papilles.</p>
+          </div>
+
+          <div class="avis-card">
+            <div class="avis-header">
+              <div class="avis-avatar">N</div>
+              <div class="avis-meta">
+                <strong>Nadège Duclos</strong>
+                <span>18 mars 2026</span>
+              </div>
+              <div class="avis-card-stars">★★★★★</div>
+            </div>
+            <p>Très bon accueil et une cuisine goutue avec de bonnes saveurs. On aime venir dans ce lieu accueillant.</p>
+          </div>
+
+          <div class="avis-card">
+            <div class="avis-header">
+              <div class="avis-avatar">F</div>
+              <div class="avis-meta">
+                <strong>Fanny</strong>
+                <span>16 mars 2026</span>
+              </div>
+              <div class="avis-card-stars">★★★★★</div>
+            </div>
+            <p>C'était juste excellent ! Je recommande vivement !</p>
+          </div>
+
+          <div class="avis-card">
+            <div class="avis-header">
+              <div class="avis-avatar">L</div>
+              <div class="avis-meta">
+                <strong>Laetitia Séguéla</strong>
+                <span>13 mars 2026</span>
+              </div>
+              <div class="avis-card-stars">★★★★★</div>
+            </div>
+            <p>Venue ce midi en couple, une excellente découverte des saveurs en bouche tops. Le service très sympathique, il nous a fait partager un voyage culinaire en Inde. Bravo !</p>
+          </div>
+
+          <div class="avis-card">
+            <div class="avis-header">
+              <div class="avis-avatar">A</div>
+              <div class="avis-meta">
+                <strong>Anne Ruffin</strong>
+                <span>7 mars 2026</span>
+              </div>
+              <div class="avis-card-stars">★★★★★</div>
+            </div>
+            <p>Très bon accueil. Service parfait et cuisine délicieuse. Nous recommandons.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="avis__controls">
+        <button class="avis-nav-btn" id="avisPrev">‹</button>
+        <div class="avis-dots" id="avisDots"></div>
+        <button class="avis-nav-btn" id="avisNext">›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span>🍛</span>
+            <div class="logo-text">
+              <span class="logo-main">India Gate</span>
+              <span class="logo-sub">Montauban</span>
+            </div>
+          </div>
+          <p>Référence incontournable de la cuisine indienne authentique à Montauban.</p>
+        </div>
+        <div class="footer__col">
+          <h4>📍 Contact</h4>
+          <p><a href="tel:0563241918">📞 05 63 24 19 18</a></p>
+          <p><a href="mailto:indiagate@outlook.fr">📧 indiagate@outlook.fr</a></p>
+          <p>📌 18 Rue Mary Lafon<br>82000 Montauban</p>
+        </div>
+        <div class="footer__col">
+          <h4>🕐 Horaires</h4>
+          <p>Lun, Mer–Dim :<br>11h30–14h30 | 18h30–22h</p>
+          <p class="footer__closed">Mardi : Fermé</p>
+        </div>
+        <div class="footer__col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#carte">Carte</a></li>
+            <li><a href="#reservation">Réservation</a></li>
+            <li><a href="#horaires">Horaires</a></li>
+            <li><a href="#avis">Avis</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 India Gate Montauban &nbsp;·&nbsp; 18 Rue Mary Lafon &nbsp;·&nbsp; <a href="tel:0563241918">05 63 24 19 18</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
